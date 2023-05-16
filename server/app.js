@@ -9,6 +9,7 @@ const AdminAuthRouter=require('./routers/AdminAuth.router')
 const LocationRouter=require('./routers/Location.router');
 const PackageRouter=require('./routers/package.router');
 const cookieParser=require('cookie-parser')
+
 const cors=require('cors')
 require("dotenv").config();
 app.use(body_parser.urlencoded({ extended: true }));
