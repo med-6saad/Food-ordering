@@ -4,7 +4,6 @@ const morgan=require('morgan')
 const mongoose=require('mongoose')
 const body_parser=require('body-parser');
 const DB_URL="mongodb://localhost:27017/deliveryProject"
-
 const AuthRouter=require('./routers/Auth.router');
 const AdminAuthRouter=require('./routers/AdminAuth.router')
 const LocationRouter=require('./routers/Location.router');
